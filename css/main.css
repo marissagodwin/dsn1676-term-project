@@ -25,7 +25,7 @@ html {
     height: 266px;
     width: 297px;
     margin: 0 auto;
-    background:url(../images/bounce4.svg) 0 0 / 297px 1593px no-repeat;
+    background:url(../images/bounce5.svg) 0 0 / 297px 1593px no-repeat;
     -webkit-animation: burger 1s steps(6) infinite alternate;
     animation: burger 1s steps(6) infinite alternate;
 }
@@ -108,7 +108,7 @@ bottom: 1em;
     margin: 0 auto;
     -webkit-animation: burger 1s steps(6) infinite alternate;
     animation: burger 1s steps(6) infinite alternate;
-    background:url(../images/bounce4.svg) 0 0 / 594px 3186px no-repeat;
+    background:url(../images/bounce5.svg) 0 0 / 594px 3186px no-repeat;
 }
     
 @-webkit-keyframes burger {
