@@ -17,11 +17,29 @@ html {
     box-sizing: inherit;
 }
 
-.keener {
+.burger {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     font-size: 100px;
     text-align: center;
     color: cyan;
+    height: 640px;
+    width: 614px;
+    margin: 0 auto;
+    background:url(../images/bounce3.svg) 0 0 / 614px 3820px no-repeat;
+    -webkit-animation: burger 1s steps(6) infinite alternate;
+    animation: burger 1s steps(6) infinite alternate;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+figcaption {
+  bottom: 0;
+  padding: 0.8em;
+  width: 100%;
 }
 
 .toggle {
@@ -48,6 +66,16 @@ html {
     transition: all 1000ms linear
 }
 
+@-webkit-keyframes burger {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -3820px;}
+}
+
+@keyframes burger {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -3820px;}
+}
+
 @-webkit-keyframes arrow {
     0% {-webkit-transform: translate(0);}
     100% {-webkit-transform: translateY(60px);}
@@ -58,8 +86,8 @@ html {
     100% {transform: translateY(60px);}
 }
 
-
 .center {
     text-align: center;
     margin: 0 auto;
 }
+
