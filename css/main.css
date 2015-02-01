@@ -21,7 +21,7 @@ html {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     font-size: 100px;
     text-align: center;
-    color: cyan;
+    color: black;
     height: 640px;
     width: 614px;
     margin: 0 auto;
@@ -30,6 +30,11 @@ html {
     animation: burger 1s steps(6) infinite alternate;
 }
 
+.animation {
+    margin: 0 auto;
+}
+ 
+
 figure {
   margin: 0;
   padding: 0;
@@ -37,9 +42,9 @@ figure {
 }
 
 figcaption {
-  bottom: 0;
-  padding: 0.8em;
-  width: 100%;
+left: 30%;
+position: absolute;
+bottom: 3em;
 }
 
 .toggle {
@@ -91,3 +96,18 @@ figcaption {
     margin: 0 auto;
 }
 
+
+@media only screen and (min-width:35em) {
+  
+  
+}
+
+@media only screen and (min-width:50em) {
+    
+   
+}
+
+@media only screen and (min-width: 80em) {
+   
+    
+}
