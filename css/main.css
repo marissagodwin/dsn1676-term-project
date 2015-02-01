@@ -22,10 +22,10 @@ html {
     font-size: 100px;
     text-align: center;
     color: black;
-    height: 640px;
-    width: 614px;
+    height: 266px;
+    width: 297px;
     margin: 0 auto;
-    background:url(../images/bounce3.svg) 0 0 / 614px 3820px no-repeat;
+    background:url(../images/bounce4.svg) 0 0 / 297px 1593px no-repeat;
     -webkit-animation: burger 1s steps(6) infinite alternate;
     animation: burger 1s steps(6) infinite alternate;
 }
@@ -33,7 +33,6 @@ html {
 .animation {
     margin: 0 auto;
 }
- 
 
 figure {
   margin: 0;
@@ -42,9 +41,8 @@ figure {
 }
 
 figcaption {
-left: 30%;
 position: absolute;
-bottom: 3em;
+bottom: 1em;
 }
 
 .toggle {
@@ -59,10 +57,11 @@ bottom: 3em;
 
 .arrow {
     text-align: center;
-    width: 60px;
+    width: 30px;
     margin: 0 auto;
     -webkit-animation: arrow 6s infinite ease-in-out alternate;
     animation: arrow 6s infinite ease-in-out alternate;
+    
 }
 
 .arrow:hover {
@@ -73,12 +72,12 @@ bottom: 3em;
 
 @-webkit-keyframes burger {
     0% {background-position: 0 0;}
-    100% {background-position: 0 -3820px;}
+    100% {background-position: 0 -1593px;}
 }
 
 @keyframes burger {
     0% {background-position: 0 0;}
-    100% {background-position: 0 -3820px;}
+    100% {background-position: 0 -1593px;}
 }
 
 @-webkit-keyframes arrow {
@@ -98,7 +97,65 @@ bottom: 3em;
 
 
 @media only screen and (min-width:35em) {
-  
+
+.burger {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 100px;
+    text-align: center;
+    color: black;
+    height: 532px;
+    width: 594px;
+    margin: 0 auto;
+    -webkit-animation: burger 1s steps(6) infinite alternate;
+    animation: burger 1s steps(6) infinite alternate;
+    background:url(../images/bounce4.svg) 0 0 / 594px 3186px no-repeat;
+}
+    
+@-webkit-keyframes burger {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -3186px;}
+}
+
+@keyframes burger {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -3186px;}
+}
+ 
+.arrow {
+    text-align: center;
+    width: 60px;
+    margin: 0 auto;
+    -webkit-animation: arrow 6s infinite ease-in-out alternate;
+    animation: arrow 6s infinite ease-in-out alternate;
+}
+
+.arrow:hover {
+    background-color: white;
+    opacity: 0.5;
+    transition: all 1000ms linear
+}
+   
+@-webkit-keyframes arrow {
+    0% {-webkit-transform: translate(0);}
+    100% {-webkit-transform: translateY(60px);}
+}
+
+@keyframes arrow {
+    0% {transform: translate(0);}
+    100% {transform: translateY(60px);}
+}
+    
+figure {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+figcaption {
+  left: 30%;
+  position: absolute;
+  bottom: 3em;
+}
   
 }
 
