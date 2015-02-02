@@ -60,8 +60,7 @@ bottom: 1em;
     width: 30px;
     margin: 0 auto;
     -webkit-animation: arrow 6s infinite ease-in-out alternate;
-    animation: arrow 6s infinite ease-in-out alternate;
-    
+    animation: arrow 6s infinite ease-in-out alternate;   
 }
 
 .arrow:hover {
