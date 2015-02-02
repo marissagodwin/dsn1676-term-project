@@ -98,13 +98,8 @@ bottom: 1em;
 @media only screen and (min-width:35em) {
 
 .burger {
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-    font-size: 100px;
-    text-align: center;
-    color: black;
     height: 532px;
     width: 594px;
-    margin: 0 auto;
     -webkit-animation: burger 1s steps(6) infinite alternate;
     animation: burger 1s steps(6) infinite alternate;
     background:url(../images/bounce5.svg) 0 0 / 594px 3186px no-repeat;
