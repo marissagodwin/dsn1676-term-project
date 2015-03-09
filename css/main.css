@@ -44,6 +44,17 @@ button:focus {
     margin: 0 auto;
 }
 
+.section {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: red;
+    text-align: center;
+}
+
+.artists {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: center;
+}
+
 figure {
   margin: 0;
   padding: 0;
@@ -100,6 +111,14 @@ bottom: 1em;
 
 .js-show-hide {
     opacity: 1;
+}
+
+.panel {
+    width: 100%;
+}
+
+.pics {
+    width: 100%;
 }
 
 .arrow {
@@ -181,6 +200,16 @@ hidden {
 
 @media only screen and (min-width:35em) {
 
+.panel {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.pics {
+    width: 75%;
+    margin: 0 auto;
+}  
+    
 .burger {
     height: 532px;
     width: 594px;
@@ -239,7 +268,15 @@ figcaption {
 
 @media only screen and (min-width:50em) {
     
-   
+  .panel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.pics {
+    width: 60%;
+    margin: 0 auto;
+}   
 }
 
 @media only screen and (min-width: 80em) {
