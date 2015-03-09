@@ -59,11 +59,24 @@ bottom: 1em;
     width: 60px;
 }
 
+.box a {
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+}
+
+.box a:hover {
+    background-color: white;
+    color: red;
+}
+
 .box {
   height: 200px;
   top: calc(50% - 50px);
   width: 200px;
   color: white;
+  text-decoration: none;
   background-color: red;
   transition: all 250ms linear;
   opacity: 0; 
@@ -71,17 +84,18 @@ bottom: 1em;
   top: 4em;
   left: 1.5em;
   z-index: 1;
-}
-
-.toggleli {
-    padding: .5em;
-   
+  margin: 0;
+  padding: 0;
 }
 
 .toggleul {
     list-style-type: none;
     padding-top: 1em;
- 
+    margin: 0;
+}
+
+.toggleli {
+    padding-left: 0;
 }
 
 .js-show-hide {
@@ -125,6 +139,43 @@ bottom: 1em;
 .center {
     text-align: center;
     margin: 0 auto;
+}
+
+hidden {
+    display: non;
+}
+
+.tabs li {
+    display: inline-block;
+}
+
+.js-current {
+    background-color: red;
+}
+
+
+.circle {
+  height: 100px;
+  top: calc(50% - 50px);
+  width: 100px;
+  background-color: orange;
+  padding: 4em;
+}
+
+.circle2 {
+  height: 500px;
+  top: calc(50% - 50px);
+  width: 100px;
+  background-color: yellow;
+  padding: 4em;
+}
+
+.circle3 {
+  height: 400px;
+  top: calc(50% - 50px);
+  width: 100px;
+  background-color: blue;
+  padding: 4em;
 }
 
 
