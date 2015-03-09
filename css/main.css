@@ -46,12 +46,13 @@ button:focus {
 
 .section {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-    color: red;
+    color: #5E5E5E;
     text-align: center;
 }
 
 .artists {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: #5E5E5E;
     text-align: center;
 }
 
@@ -72,7 +73,9 @@ bottom: 1em;
 
 .box a {
     display: block;
-    padding: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
     text-decoration: none;
     color: white;
 }
@@ -102,6 +105,7 @@ bottom: 1em;
 .toggleul {
     list-style-type: none;
     padding-top: 1em;
+    padding-left: 0;
     margin: 0;
 }
 
@@ -119,6 +123,25 @@ bottom: 1em;
 
 .pics {
     width: 100%;
+}
+
+.motion {
+    background-color: #FFE680;
+    height: 300px;
+}
+
+.pastes {
+    background-color: white;
+}
+
+.voodoo {
+    background-color: #FF5C33;
+    height: 300px;
+}
+
+.contact {
+    background-color: #80FF80;
+    height: 300px;
 }
 
 .arrow {
