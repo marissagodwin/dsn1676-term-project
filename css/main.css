@@ -17,6 +17,15 @@ html {
     box-sizing: inherit;
 }
 
+button { 
+    border: none;
+    background-color: white;
+}
+
+button:focus {
+    outline:0;
+}
+
 .burger {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     font-size: 100px;
@@ -49,10 +58,18 @@ bottom: 1em;
     width: 60px;
 }
 
-.toggle:hover {
-    background-color: white;
-    opacity: 0.25;
-    transition: all 1000ms linear
+.box {
+  height: 100px;
+  top: calc(50% - 50px);
+  width: 200px;
+
+  background-color: limegreen;
+  transition: all 250ms linear;
+  opacity: 0; 
+}
+
+.js-show-hide {
+    opacity: 1;
 }
 
 .arrow {
