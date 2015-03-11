@@ -49,6 +49,16 @@ button:focus {
     color: #5E5E5E;
 }
 
+.pastebox {
+    position: relative;
+}
+
+.navcircles {
+    position: absolute;
+    bottom: -16em;
+    left: 4em;
+}   
+
 .artists {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     color: #5E5E5E;
@@ -194,12 +204,6 @@ hidden {
 .js-current {
     background-color: red;
 }
-
-.navcircles {
-    position: relative;
-    bottom: 32em;
-    left: -2em;
-}   
 
 .circle {
   height: 100px;
