@@ -53,11 +53,9 @@ button:focus {
     position: relative;
 }
 
-.navcircles {
-    position: absolute;
-    bottom: -16em;
-    left: 4em;
-}   
+.hidesmall {
+        display: none;
+}
 
 .artists {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
@@ -232,12 +230,12 @@ hidden {
 
 @media only screen and (min-width:35em) {
 
-.navcircles {
-    position: relative;
-    bottom: 4em;
-    left: -12em;
-}     
-    
+.hidesmall {
+        display: block;
+}
+.hidelarge {
+        display: none;
+}
 .panel {
     width: 100%;
     margin: 0;
@@ -306,12 +304,7 @@ figcaption {
 
 @media only screen and (min-width:50em) {
 
-.navcircles {
-    position: relative;
-    bottom: 4em;
-    left: -16em;
-}    
-    
+
  .panel {
     width: 100%;
     margin: 0 auto;
