@@ -132,6 +132,7 @@ bottom: 1em;
 
 .pastes {
     background-color: white;
+    padding-top: 1em;
 }
 
 .voodoo {
@@ -224,13 +225,13 @@ hidden {
 @media only screen and (min-width:35em) {
 
 .panel {
-    width: 75%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
 }
 
 .pics {
-    width: 75%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
 }  
     
 .burger {
@@ -292,12 +293,12 @@ figcaption {
 @media only screen and (min-width:50em) {
     
   .panel {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .pics {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }   
 }
