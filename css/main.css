@@ -47,7 +47,6 @@ button:focus {
 .section {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     color: #5E5E5E;
-    text-align: center;
 }
 
 .artists {
@@ -196,6 +195,11 @@ hidden {
     background-color: red;
 }
 
+.navcircles {
+    position: relative;
+    bottom: 32em;
+    left: -2em;
+}   
 
 .circle {
   height: 100px;
@@ -224,6 +228,12 @@ hidden {
 
 @media only screen and (min-width:35em) {
 
+.navcircles {
+    position: relative;
+    bottom: 4em;
+    left: -12em;
+}     
+    
 .panel {
     width: 100%;
     margin: 0;
@@ -291,8 +301,14 @@ figcaption {
 }
 
 @media only screen and (min-width:50em) {
+
+.navcircles {
+    position: relative;
+    bottom: 4em;
+    left: -16em;
+}    
     
-  .panel {
+ .panel {
     width: 100%;
     margin: 0 auto;
 }
