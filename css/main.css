@@ -51,6 +51,7 @@ button:focus {
 
 .pastebox {
     position: relative;
+    padding: none;
 }
 
 .hidesmall {
@@ -130,25 +131,27 @@ bottom: 1em;
 
 .pics {
     width: 100%;
+    padding: none;
 }
 
 .motion {
-    background-color: #FFE680;
+    background-color: #D0D0D0;
     height: 300px;
+    padding: none;
 }
 
 .pastes {
     background-color: white;
-    padding-top: 1em;
 }
 
 .voodoo {
-    background-color: #FF5C33;
+    background-color: #D0D0D0;
     height: 300px;
+    padding: none;
 }
 
 .contact {
-    background-color: #80FF80;
+    background-color: #404040;
     height: 300px;
 }
 
@@ -203,31 +206,6 @@ hidden {
     background-color: red;
 }
 
-.circle {
-  height: 100px;
-  top: calc(50% - 50px);
-  width: 100px;
-  background-color: orange;
-  padding: 4em;
-}
-
-.circle2 {
-  height: 500px;
-  top: calc(50% - 50px);
-  width: 100px;
-  background-color: yellow;
-  padding: 4em;
-}
-
-.circle3 {
-  height: 400px;
-  top: calc(50% - 50px);
-  width: 100px;
-  background-color: blue;
-  padding: 4em;
-}
-
-
 @media only screen and (min-width:35em) {
 
 .hidesmall {
@@ -245,6 +223,11 @@ hidden {
     width: 100%;
     margin: 0;
 }  
+    
+.circlepic {
+    width: 10px;
+    padding: 3px;
+}
     
 .burger {
     height: 532px;
