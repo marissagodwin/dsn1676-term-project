@@ -68,6 +68,31 @@ button:focus {
         display: none;
 }
 
+.lightbox {
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.lightbox[data-state="visible"] {
+    display:block;
+}
+
+.lightbox-container {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 15px;
+    bottom: 15px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px #000;
+}
+
 .artists {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     color: #5E5E5E;
@@ -148,7 +173,6 @@ bottom: 1em;
     background-color: #D0D0D0;
     margin: 0 auto;
     padding: none;
-    height: 300px;
 }
 
 .pastes {
