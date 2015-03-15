@@ -146,8 +146,9 @@ bottom: 1em;
 
 .motion {
     background-color: #D0D0D0;
-    height: 300px;
+    margin: 0 auto;
     padding: none;
+    height: 300px;
 }
 
 .pastes {
@@ -156,8 +157,12 @@ bottom: 1em;
 
 .voodoo {
     background-color: #D0D0D0;
-    height: 300px;
+
     padding: none;
+}
+
+.charm {
+    width: 90%;
 }
 
 .contact {
@@ -224,8 +229,14 @@ hidden {
     background-color: red;
 }
 
-@media only screen and (min-width:35em) {
 
+@media only screen and (min-width:35em) {
+    
+.charm {
+    width: 75%;
+}
+  
+    
 .hidesmall {
         display: block;
 }
@@ -319,5 +330,9 @@ figcaption {
 
 @media only screen and (min-width: 80em) {
    
+    .charm {
+    width: 90%;
+}
+  
     
 }
