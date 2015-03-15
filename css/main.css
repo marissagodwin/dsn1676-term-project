@@ -26,6 +26,16 @@ button:focus {
     outline:0;
 }
 
+.contactinfo {
+    color:#D0D0D0;
+    list-style-type: none;
+}
+
+.contactinfo a {
+    text-decoration: none;
+    color: #D0D0D0;
+}
+
 .burger {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     font-size: 100px;
@@ -156,6 +166,14 @@ bottom: 1em;
 }
 
 .arrow {
+    text-align: center;
+    width: 30px;
+    margin: 0 auto;
+    -webkit-animation: arrow 6s infinite ease-in-out alternate;
+    animation: arrow 6s infinite ease-in-out alternate;   
+}
+
+.arrow2 {
     text-align: center;
     width: 30px;
     margin: 0 auto;
