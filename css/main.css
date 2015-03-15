@@ -173,6 +173,7 @@ bottom: 1em;
     background-color: #D0D0D0;
     margin: 0 auto;
     padding: none;
+    height: 300px;
 }
 
 .pastes {
@@ -253,6 +254,11 @@ hidden {
     background-color: red;
 }
 
+
+.circlepic {
+    width: 10px;
+    padding: 3px;
+}
 
 @media only screen and (min-width:35em) {
     
