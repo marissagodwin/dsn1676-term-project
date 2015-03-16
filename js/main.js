@@ -29,3 +29,4 @@ $thumbs.on('click','a', function (e){
     $lbImg.attr('src', big);
     $lb.attr('data-state','visible;');
 })
+
