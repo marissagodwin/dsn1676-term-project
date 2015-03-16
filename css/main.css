@@ -59,6 +59,11 @@ button:focus {
     color: #5E5E5E;
 }
 
+.sectionm {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: white;
+}
+
 .pastebox {
     position: relative;
     padding: none;
@@ -145,10 +150,22 @@ bottom: 1em;
 }
 
 .motion {
-    background-color: #D0D0D0;
+    background-image: url(../images/motionshot.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
     margin: 0 auto;
     padding: none;
     height: 300px;
+}
+
+.motiontext {
+    color: white;
+    background-color: rgba(0,0,0,.5)
+}
+
+.motiontext a {
+    text-decoration: none;
+    color: white;
 }
 
 .pastes {
@@ -373,7 +390,6 @@ figcaption {
     
 }
 
-
 .charm2 {
     width: 220px;
     height: 220px;
@@ -381,7 +397,6 @@ figcaption {
     background-repeat: no-repeat;
     background-size: 220px 220px;
 }
-
 
 .charm3 {
     width: 220px;
@@ -391,7 +406,6 @@ figcaption {
     background-size: 220px 220px;
 }
 
-
 .charm4 {
     width: 220px;
     height: 220px;
@@ -400,12 +414,28 @@ figcaption {
     background-size: 220px 220px;
 }
 
+    .motion {
+    background-image: url(../images/motionshot.jpg);
+    margin: 0 auto;
+    padding: none;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
   
 }
 
 @media only screen and (min-width:50em) {
 
+.motion {
+    background-image: url(../images/motionshot.jpg);
+    margin: 0 auto;
+    padding: none;
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
  .panel {
     width: 100%;
