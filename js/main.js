@@ -32,3 +32,4 @@ $thumbs.on('click','a', function (e){
     $lb.attr('data-state','visible;');
 })
 
+$('.toggleul').localScroll();
