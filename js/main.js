@@ -8,6 +8,8 @@ var $thumbs = $('.thumbnails');
 var $lbImg =$('.lightbox-img');
 var $lb =$('.lightbox');
 
+
+
 $btnShowHide.on('click', function () {
     $box.toggleClass('js-show-hide') 
 });

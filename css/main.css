@@ -6,6 +6,7 @@
 
 html {
     box-sizing: border-box;
+    overflow: hidden;
     
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -15,6 +16,19 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;  
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    ~webkit-overflow-scrolling: touch;
+    perspective: 1px;
 }
 
 button { 
