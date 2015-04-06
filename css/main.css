@@ -320,41 +320,43 @@ hidden {
 }
 
 .mustard {
-    -webkit-animation: mustardmove 12s infinite alternate ease-in-out;
-    animation: ship 12s infinite ease-in-out;
+    -webkit-animation: mustardmove 10s infinite alternate ease-in-out;
+    animation:  mustardmove 10s infinite alternate ease-in-out;
 }
 
 .ketchup {
-    -webkit-animation: mustardmove 12s infinite alternate ease-in-out;
-    animation: ship 12s infinite ease-in-out;
+    -webkit-animation: mustardmove 10s infinite alternate ease-in-out;
+    animation:  mustardmove 10s infinite alternate ease-in-out;
 }
 
 @-webkit-keyframes mustardmove {
     0% {-webkit-transform: translate(0);} 
-    100%{-webkit-transform: translateX(1200px);}
+    100%{-webkit-transform: translateX(400px);}
 }
 
 @keyframes mustardmove {
-   0% {-webkit-transform: translate(0);} 
-    100%{-webkit-transform: translateX(1200px);}
+   0% {transform: translate(0);} 
+    100%{transform: translateX(400px);}
 }
 
 #drop {
+     -webkit-animation: bob-head 1s ease alternate infinite;
     animation: bob-head 1s ease alternate infinite;
 }
 
 
 #kdrop {
+    -webkit-animation: bob-head 1s ease alternate infinite;
     animation: bob-head 1s ease alternate infinite;
 }
 
 
 @-webkit-keyframes bob-head{
     0% {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
     }
     100% {
-        transform: translateY(-150px);
+        -webkit-transform: translateY(-150px);
     }
 }
 
@@ -488,6 +490,16 @@ figcaption {
 
 @media only screen and (min-width:50em) {
 
+@-webkit-keyframes mustardmove {
+    0% {-webkit-transform: translate(0);} 
+    100%{-webkit-transform: translateX(1100px);}
+}
+
+@keyframes mustardmove {
+   0% {transform: translate(0);} 
+    100%{transform: translateX(1100px);}
+}    
+    
 .motion {
     background-image: url(../images/motionshot.jpg);
     margin: 0 auto;
@@ -509,7 +521,18 @@ figcaption {
 }
 
 @media only screen and (min-width: 80em) {
-   
+
+@-webkit-keyframes mustardmove {
+    0% {-webkit-transform: translate(0);} 
+    100%{-webkit-transform: translateX(1800px);}
+}
+
+@keyframes mustardmove {
+   0% {transform: translate(0);} 
+    100%{transform: translateX(1800px);}
+} 
+    
+    
     .charm {
     width: 90%;
 }
