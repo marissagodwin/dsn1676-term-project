@@ -356,6 +356,16 @@ hidden {
     animation: bob-head 1s ease alternate infinite;
 }
 
+
+@-webkit-keyframes bob-head{
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-150px);
+    }
+}
+
 @keyframes bob-head{
     0% {
         transform: translateY(0);
