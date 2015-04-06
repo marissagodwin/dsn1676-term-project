@@ -4,6 +4,9 @@ var $box = $('.box');
 var $tabs = $('.tabs');
 var $panels = $('.panel');
 
+var $ketchmust = $('.ketchmust');
+
+
 $btnShowHide.on('click', function () {
     $box.toggleClass('js-show-hide')
 });
@@ -23,4 +26,8 @@ $.localScroll({
   target: '.wrapper'
 });
 
+
+$ketchmust.waypoint(function () {
+    $ketchmust.toggleClass('js-active');
+}, { offset: '50%', context: '.wrapper' });
 

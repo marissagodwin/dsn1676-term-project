@@ -339,13 +339,13 @@ hidden {
     100%{transform: translateX(400px);}
 }
 
-#drop {
+.js-active #drop {
      -webkit-animation: bob-head 1s ease alternate infinite;
     animation: bob-head 1s ease alternate infinite;
 }
 
 
-#kdrop {
+.js-active #kdrop {
     -webkit-animation: bob-head 1s ease alternate infinite;
     animation: bob-head 1s ease alternate infinite;
 }
