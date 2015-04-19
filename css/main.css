@@ -147,6 +147,8 @@ bottom: 1em;
   z-index: 1;
   margin: 0;
   padding: 0;
+  height: 0;
+  overflow: hidden;
 }
 
 .toggleul {
@@ -162,6 +164,7 @@ bottom: 1em;
 
 .js-show-hide {
     opacity: 1;
+    height: 12em;
 }
 
 .panel {
