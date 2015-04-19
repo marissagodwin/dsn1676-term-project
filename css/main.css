@@ -203,6 +203,7 @@ bottom: 1em;
 .charm1 {
     width: 260px;
     height: 260px;
+    margin: 0 auto;
     background-image: url(../images/icecream.gif);
     background-repeat: no-repeat;
     background-size: 260px 260px;
@@ -217,6 +218,7 @@ bottom: 1em;
 .charm2 {
     width: 260px;
     height: 260px;
+    margin: 0 auto;
     background-image: url(../images/airjordan.gif);
     background-repeat: no-repeat;
     background-size: 260px 260px;
@@ -231,6 +233,7 @@ bottom: 1em;
 .charm3 {
     width: 260px;
     height: 260px;
+    margin: 0 auto;
     background-image: url(../images/donut.gif);
     background-repeat: no-repeat;
     background-size: 260px 260px;
@@ -245,6 +248,7 @@ bottom: 1em;
 .charm4 {
     width: 260px;
     height: 260px;
+    margin: 0 auto;
     background-image: url(../images/fortune.gif);
     background-repeat: no-repeat;
     background-size: 260px 260px;
@@ -399,38 +403,6 @@ hidden {
     margin: 0;
 }  
         
-.charm1 {
-    width: 220px;
-    height: 220px;
-    background-image: url(../images/icecream.gif);
-    background-repeat: no-repeat;
-    background-size: 220px 220px;
-    
-}
-
-.charm2 {
-    width: 220px;
-    height: 220px;
-    background-image: url(../images/airjordan.gif);
-    background-repeat: no-repeat;
-    background-size: 220px 220px;
-}
-
-.charm3 {
-    width: 220px;
-    height: 220px;
-    background-image: url(../images/donut.gif);
-    background-repeat: no-repeat;
-    background-size: 220px 220px;
-}
-
-.charm4 {
-    width: 220px;
-    height: 220px;
-    background-image: url(../images/fortune.gif);
-    background-repeat: no-repeat;
-    background-size: 220px 220px;
-}
 
 .motion {
     background-image: url(../images/eye.jpg);
@@ -502,7 +474,7 @@ hidden {
     
     
 .charm {
-    width: 90%;
+    width: 80%;
 }
   
     
