@@ -51,8 +51,8 @@ button:focus {
 }
 
 .burger {
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-    font-size: 100px;
+    font-family: 'Comfortaa',Helvetica,Arial,sans-serif; 
+    font-size: 80px;
     text-align: center;
     color: black;
     height: 266px;
@@ -398,20 +398,7 @@ hidden {
     width: 100%;
     margin: 0;
 }  
-    
-    
-figure {
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-figcaption {
-  left: 30%;
-  position: absolute;
-  bottom: 3em;
-}
-    
+        
 .charm1 {
     width: 220px;
     height: 220px;
