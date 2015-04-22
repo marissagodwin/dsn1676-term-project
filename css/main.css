@@ -35,9 +35,10 @@ body {
 .skip-links a {
     position: absolute;
     top: -3em;
+    z-index: 100;
 }
 
-.skip-links a: focus {
+.skip-links a:focus {
     top:0;
 }
 
